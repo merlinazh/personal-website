@@ -1,0 +1,340 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+/* Navbar */
+body, h1, h2, h3, p, ul{
+    margin: 0;
+    padding: 0;
+}
+#my-navbar{
+    padding-top: 10px;
+    position: fixed;
+    width:100%;
+    background-color: #212121;
+    z-index: 2;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+}
+#nav-li{
+    display: flex;
+    list-style: none;
+    gap: 50px;
+    margin: 0;
+    padding: 0;
+}
+#nav-li li a{
+    font-size: 12px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    color: #ffff;
+    margin-right: 50px;
+}
+#nav-li li a:hover{
+    color: #FBB43E;
+}
+/* Background image */
+.image-background{
+    position: relative;
+}
+.image-background img{
+    height: auto;
+    display: block;
+    width: 100%;
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(33, 33, 33, 0.6);
+    margin: 0;
+    padding: 0;
+}
+/* HOME */
+.home{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    width: 100%;
+}
+.home .hai{
+    font-size: 20px;
+    font-weight: 400;
+}
+.home .webdev{
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+.home h1{
+    font-size: 50px;
+    font-weight:600;
+}
+.home span{
+    color: #FBB43E;
+}
+.home a{
+    background-color: #FBB43E;
+    text-decoration: none;
+    color:#212121;
+    font-family: 'Poppins', sans-serif;
+    padding: 10px 50px;
+    text-align: center;
+    font-weight: 600;
+}
+.home a:hover{
+    background-color: #212121;
+    color: white;
+}
+/* MY PORTFOLIO */
+.portfolio{
+    background-color: #F0F0F0;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+.portfolio h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    text-align: center;
+    color: #212121;
+    padding-top: 50px;
+    margin-bottom: 30px;
+}
+.custom-hr{
+    width: 10%;
+    border-top: 3px solid #f39806;
+    margin: auto;
+    margin-top: -20px;
+}
+.card-group{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    padding-bottom: 50px;
+}
+.card-konten:hover{
+    color: #212121;
+    background-color: #FBB43E;
+    
+}
+.card-link a{
+    text-decoration: none;
+    color: #212121;
+    margin-top: 0;
+}
+.card-konten{
+    width: 400px;
+    height: 350px;
+    padding: 20px;
+    margin: 10px 10px 0 10px;
+    border-radius: 4px;
+    border-left: solid 5px #212121;
+    border-bottom: solid 5px #212121;
+    background-color: #ffff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+    text-align: left;
+    font-family: 'Poppins', sans-serif;
+}
+.card-konten img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
+  }
+  
+  .card-konten h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    font-weight: 600;
+  }
+  
+  .card-konten p {
+    font-size: 1em;
+    color: #212121;
+    font-weight: 400;
+  }
+  .button-project{
+    text-align: center;
+    padding-bottom: 50px;
+  }
+  .button-project a{
+    background-color: #FBB43E;
+    text-decoration: none;
+    color:#212121;
+    font-family: 'Poppins', sans-serif;
+    padding: 10px 30px;
+    text-align: center;
+    font-weight: 600;
+    width: 20vw;
+  }
+  .button-project a:hover{
+    background-color: #212121;
+    color: #F0F0F0;
+  }
+  /* BLOG */
+  .blog{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+  .blog h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    text-align: center;
+    color: #212121;
+    padding-top: 80px;
+    margin-bottom: 30px;
+  }
+  /* footer */
+  footer{
+    background-color: #212121;
+    height: 100%;
+  }
+  footer p{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: #ffff;
+    padding-top: 30px;
+  }
+  .icon-footer{
+    text-align: center;
+    padding-bottom: 30px;
+  }
+  /* blog HTML */
+  .blog-page{
+    align-items: center;
+  }
+  .blog-page h1{
+    text-align: center;
+  }
+  .blog-image{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+  }
+  .blog-image img{
+    align-items: center;
+    width: 50vw;
+  }
+  .text-blog p{
+    padding-top: 10px;
+    font-family: 'Poppins', sans-serif;
+  }
+  /* About HTML */
+  .about-me, .blog-page{
+    height: 100%;
+    padding: 100px;
+  }
+  .about-konten, .blog-page{
+    align-items: center;
+  }
+  .about-image img{
+    float: left;
+    width: 300px;
+    padding: 5px;
+    margin-right: 10px;
+    border-left: solid 5px #FBB43E;
+    border-bottom: solid 5px #FBB43E;
+    background-color: #212121;
+  }
+  .text-about, .blog-text{
+    padding: 10px;
+    font-family: 'Poppins', sans-serif;
+  }
+  .about-me h1{
+    color: #f39806;
+  }
+  /* responsive tablet */
+@media (max-width: 991.98px) {
+  .home .hai{
+    font-size: 18px;
+    margin: 0;
+}
+  .home h1{
+    font-size: 40px;
+}
+  .home .webdev{
+    font-size: 18px;
+}
+  .home a{
+    padding: 10px 30px;
+    font-size: 12px;
+}
+  .card-group{
+    display: grid;
+    justify-content: center;
+}
+  .card-konten{
+    max-width: 400px;
+    margin: 10px;
+}
+  .button-project a{
+    width: 40%;
+  }
+  .about-image img{
+    width: 250px;
+  }
+ }
+
+ /* responsive hp */
+ @media (max-width: 575.98px) {
+  .image-background{
+    top: 50px;
+  }
+  .home .hai{
+    font-size: 10px;
+    margin: 0;
+  }
+  .home h1{
+    font-size: 20px;
+  }
+  .home .webdev{
+    font-size: 10px;
+    margin-bottom: 10px;
+  }
+  .home a{
+    padding: 5px 20px;
+    font-size: 8px;
+  }
+  .portfolio h1, .blog h1{
+    font-size: 20px;
+    padding-top: 80px;
+    margin-bottom: 30px;
+  }
+  .card-group{
+    padding-bottom: 10px;
+}
+  .card-konten{
+    width: 90%;
+    height: 300px;
+  }
+  .card-konten h3 {
+    font-size: 1.2em;
+  }
+  .card-konten p {
+    font-size: 0.8em;
+  }
+  .button-project{
+    padding: 20px 10px;
+    margin: 0;
+    font-size: 8px;
+  }
+  footer p{
+    font-size: 12px;
+  }
+  .icon-footer img{
+    width: 30px;
+  }
+  .about-image img{
+    width: 200px;
+  }
+ }

@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet" href="./CSS/bootstrap.min.css">
+    <title>Personal Website</title>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark" id="my-navbar">
+        <div class="container-fluid d-flex justify-content-end" >
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end " id="navbarSupportedContent">
+                <div class="right-align d-flex justify-content-center">
+                    <ul class="navbar-nav " id="nav-li">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#">HOME</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./HTML/portfolio.html">PORTFOLIO</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./HTML/blog.html">BLOG</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./HTML/about.html">ABOUT</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="image-background">
+        <img src="../Assets/background.png" alt="Background image">
+        <div class="overlay"></div>
+        <div class="home">
+            <p class="hai">Hi There</p>
+            <h1>I'm <span>Marliana Azizah</span></h1>
+            <p class="webdev">A Web Developer</p>
+            <a href="./HTML/about.html">ABOUT ME</a>
+        </div>
+    </div>
+    <div class="portfolio">
+        <h1>MY PROJECTS</h1>
+        <hr class="custom-hr">
+        <div class="card-group">
+            <div class="card-link">
+                <a href="">
+                    <div class="card-konten">
+                        <h3>PERSONAL WEBSITE</h3>
+                        <p>My personal website</p>
+                        <img src="./Assets/portfolio-card-1.png" alt="">
+                    </div>
+                </a>
+            </div>
+            <div class="card-link">
+                <a href="https://github.com/DimasSpr/Final-Project-4" target="_blank">
+                    <div class="card-konten">
+                        <h3>WEATHER FORECAST</h3>
+                        <p>Website for weather forecast at any 
+                            location using the fetch API</p>
+                        <img src="../Assets/portfolio-card-2.png" alt="">
+                    </div>
+                </a>
+            </div>
+            <div class="card-link">
+                <a href="https://github.com/merlinazh/assignment-3">
+                    <div class="card-konten">
+                        <h3>COVID-19 TRACKER</h3>
+                        <p>Website for COVID-19 tracking across
+                            different countries using the fetch API</p>
+                        <img src="../Assets/portfolio-card-3.png" alt="">
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="button-project">
+            <a href="./HTML/portfolio.html">SEE MORE PROJECTS</a>
+        </div>
+    </div>
+    <div class="blog">
+        <h1>BLOG</h1>
+        <hr class="custom-hr">
+        <div class="card-group">
+            <div class="card-link">
+                <a href="./HTML/blog-1.html">
+                    <div class="card-konten">
+                        <h3>Platform Belajar Logika JavaScript</h3>
+                        <p>Pemrograman membutuhkan lebih dari sekadar mengetahui sintaks dan struktur bahasa pemrograman. Memahami logika dan kemampuan untuk 
+                            menyelesaikan masalah dengan cara yang efisien adalah keterampilan krusial bagi seorang pengembang perangkat lunak.</p>
+                    </div>
+                </a>
+            </div>
+            <div class="card-link">
+                <a href="./HTML/blog-2.html">
+                    <div class="card-konten">
+                        <h3>Deployment Menggunakan Vercel</h3>
+                        <p> Vercel telah menjadi pilihan utama bagi banyak pengembang web karena sejumlah keunggulan yang ditawarkannya. Dalam hal kemudahan penggunaan, 
+                            Vercel mencuri perhatian dengan antarmuka yang intuitif, memungkinkan pengguna untuk melakukan proses deployment 
+                            dengan hanya beberapa klik.</p>
+                    </div>
+                </a>
+            </div>
+            <div class="card-link">
+                <a href="./HTML/blog-3.html">
+                    <div class="card-konten">
+                        <h3>Responsive Web Design Menggunakan Framework</h3>
+                        <p>Penggunaan framework dalam membangun website responsif telah menjadi landasan utama bagi para pengembang web. Framework seperti Bootstrap, Foundation, 
+                            atau Tailwind CSS memudahkan pengembang untuk menciptakan tata letak yang responsif secara cepat dan efisien. 
+                            </p>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="button-project">
+            <a href="./HTML/blog.html">SEE MORE BLOGS</a>
+        </div>
+    </div>
+    <footer>
+        <p>Reach me out</p>
+        <div class="icon-footer">
+            <a href="mailto:marlianaazizah.id@gmail.com"><img src="../Assets/email.png" alt="Email"></a>
+            <a href="www.linkedin.com/in/marliana-azizah"><img src="../Assets/linkedin.png" alt="Linkedin"></a>
+            <a href="https://www.instagram.com/merlin_azizah/"><img src="../Assets/instagram.png" alt="Instagram"></a>
+            <a href="https://github.com/merlinazh"><img src="../Assets/github.png" alt="Github"></a>
+        </div>
+    </footer>
+    <script src="./JS/script.js"></script>
+    <script src="./JS/bootstrap.bundle.min.js"></script>
+</body>
+</html>
